@@ -1,6 +1,6 @@
 {
   "name": "nuy_laundry",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "homepage": "https://alanpratama.github.io/nuy-laundry",
   "private": true,
   "type": "module",
@@ -9,7 +9,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
