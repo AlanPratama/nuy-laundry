@@ -71,7 +71,7 @@ export const Footer = ({ waLink }) => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
           <p className="text-sm text-gray-500">
-            © Copyright 2024 Nuy Laundry. Seluruh hak cipta dilindungi.
+            © Copyright 2026 Nuy Laundry. Seluruh hak cipta dilindungi.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
