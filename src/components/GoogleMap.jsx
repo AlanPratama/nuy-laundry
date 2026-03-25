@@ -17,11 +17,11 @@ export const GoogleMap = ({ waLink }) => {
     },
     {
       title:
-        "Jl. Prumpung Tengah No.38, RT.11/RW.6, Cipinang Besar Utara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
+        "Jl. Cipinang Jaya IIE, RT.10/RW.8, Cipinang Besar Selatan, Kecamatan Jatinegara, Kota Jakarta Timur, DKI Jakarta 13410",
       icon: faLocationDot,
       textColor: "text-blue-500",
       bgColor: "bg-blue-100",
-      link: "https://maps.app.goo.gl/NzSjomtkseTqFyV19",
+      link: "https://maps.app.goo.gl/Y7BPz8TnWaccGn747",
       alignItems: "items-start",
     },
   ];
@@ -34,7 +34,7 @@ export const GoogleMap = ({ waLink }) => {
       <div className="w-full rounded-md shadow-md">
         <iframe
           title="Lokasi Google Maps Nuy Laundry"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3224987220283!2d106.8781563263999!3d-6.221136735086819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f364a2432099%3A0x3ef06505d46d69cf!2sNuy%20Laundry%20Kiloan!5e0!3m2!1sid!2sid!4v1729376161958!5m2!1sid!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.255250813159!2d106.87788977411373!3d-6.221198593766799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f300551d977d%3A0xe1e6428b315311ac!2sNuy%20Laundry!5e1!3m2!1sid!2sid!4v1774430101731!5m2!1sid!2sid"
           className="h-[340px] w-full rounded-md shadow-md"
           allowFullScreen=""
           loading="lazy"
