@@ -9,6 +9,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Test
+      - name: TestLalala
         run: echo "CI/CD jalan di home server 🚀"
  
