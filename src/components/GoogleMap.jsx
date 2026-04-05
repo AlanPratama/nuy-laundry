@@ -8,7 +8,7 @@ export const GoogleMap = ({ waLink }) => {
   
   const contactInformation = [
     {
-      title: "085770611154",
+      title: "0857-7061-1154",
       icon: faWhatsapp,
       textColor: "text-green-500",
       bgColor: "bg-green-100",
