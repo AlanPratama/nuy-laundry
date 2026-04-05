@@ -72,7 +72,7 @@ export const GoogleMap = ({ waLink }) => {
         ))}
         <a href={waLink} target="_blank">
           <button className="items-center justify-center h-11 px-6 mt-3 w-full sm:w-auto font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-            Hubungi Kami Sekarang APA
+            Hubungi Kami Sekarang
           </button>
         </a>
       </div>
