@@ -11,3 +11,4 @@ jobs:
     steps:
       - name: Test
         run: echo "CI/CD jalan di home server 🚀"
+ 
