@@ -1,14 +1,19 @@
-name: Test Runner
+name: Deploy App
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  test:
+  deploy:
     runs-on: self-hosted
 
     steps:
-      - name: TestLalalaXX
-        run: echo "CI/CD jalan di home server 🚀"
- 
+      - name: Deploy via SSH
+        run: |
+          ssh dockerserver@192.168.0.103 << 'EOF'
+            cd /var/www/nuy-laundry
+            git pull origin main
+            docker compose down
+            docker compose up -d --build
+          EOF
