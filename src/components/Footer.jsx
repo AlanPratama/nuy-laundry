@@ -1,9 +1,8 @@
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { images } from "../../public/assets";
 import PropTypes from "prop-types";
 
-const service1 = [
+const mainService = [
   `Cuci Basah`,
   "Cuci Kering",
   "Reguler",
@@ -11,9 +10,12 @@ const service1 = [
   "Bed Cover",
 ];
 
-const service2 = ["Boneka", "Sepatu", "Karpet", "Selimut", "Sejadah"];
+const otherService = ["Boneka", "Sepatu", "Karpet", "Bed Cover", "Selimut", "Sejadah"];
 
 export const Footer = ({ waLink }) => {
+
+  const yearNow = new Date().getFullYear()
+
   return (
     <div className="bg-neutral-900">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -44,7 +46,7 @@ export const Footer = ({ waLink }) => {
                 Layanan Kami
               </p>
               <ul className="mt-2 space-y-2">
-                {service1.map((item, index) => (
+                {mainService.map((item, index) => (
                   <li key={`footer-service-1-${index}`}>
                     <p className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
                       {item}
@@ -58,7 +60,7 @@ export const Footer = ({ waLink }) => {
                 Layanan Kami Lainnya
               </p>
               <ul className="mt-2 space-y-2">
-                {service2.map((item, index) => (
+                {otherService.map((item, index) => (
                   <li key={`footer-service-2-${index}`}>
                     <p className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200">
                       {item}
@@ -71,7 +73,7 @@ export const Footer = ({ waLink }) => {
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
           <p className="text-sm text-gray-500">
-            © Copyright 2026 Nuy Laundry. Seluruh hak cipta dilindungi.
+            © Copyright {yearNow} Nuy Laundry. Seluruh hak cipta dilindungi.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a

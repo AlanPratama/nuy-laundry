@@ -5,7 +5,6 @@ import { images } from "../../public/assets";
 import PropTypes from "prop-types";
 
 export const GoogleMap = ({ waLink }) => {
-  
   const contactInformation = [
     {
       title: "0857-7061-1154",
@@ -29,7 +28,7 @@ export const GoogleMap = ({ waLink }) => {
   return (
     <div
       id="lokasi-dan-kontak"
-      className="px-4 py-16 md:px-24 lg:px-24 lg:py-20 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-x-6 gap-y-4"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-x-6 gap-y-4"
     >
       <div className="w-full rounded-md shadow-md">
         <iframe
@@ -41,9 +40,13 @@ export const GoogleMap = ({ waLink }) => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div>
+      <div className="w-full">
         <div className="flex items-center justify-start mb-3 rounded-full">
-          <img src={images.washingMachine} alt="Nuy Laundry Kiloan" className="w-8" />
+          <img
+            src={images.washingMachine}
+            alt="Nuy Laundry Kiloan"
+            className="w-8"
+          />
           <p className="text-deep-purple-accent-400 font-sans text-3xl font-bold">
             Nuy Laundry
           </p>

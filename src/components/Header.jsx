@@ -1,8 +1,8 @@
 import {
-  faBolt,
-  faHandSparkles,
-  faMoneyBillWave,
   faSprayCanSparkles,
+  faMoneyBillWave,
+  faBolt,
+  faMotorcycle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
@@ -10,20 +10,20 @@ import { images } from "../../public/assets";
 
 const sloganArray = [
   {
-    icon: faHandSparkles,
-    title: "Bersih",
+    icon: faSprayCanSparkles,
+    title: "Bersih & Wangi",
   },
   {
-    icon: faSprayCanSparkles,
-    title: "Wangi",
+    icon: faMoneyBillWave,
+    title: "Harga Terjangkau",
   },
   {
     icon: faBolt,
     title: "Cepat",
   },
   {
-    icon: faMoneyBillWave,
-    title: "Harga Terjangkau",
+    icon: faMotorcycle,
+    title: "Antar Jemput",
   },
 ];
 
