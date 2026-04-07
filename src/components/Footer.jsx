@@ -10,11 +10,17 @@ const mainService = [
   "Bed Cover",
 ];
 
-const otherService = ["Boneka", "Sepatu", "Karpet", "Bed Cover", "Selimut", "Sejadah"];
+const otherService = [
+  "Boneka",
+  "Sepatu",
+  "Karpet",
+  "Bed Cover",
+  "Selimut",
+  "Sejadah",
+];
 
 export const Footer = ({ waLink }) => {
-
-  const yearNow = new Date().getFullYear()
+  const yearNow = new Date().getFullYear();
 
   return (
     <div className="bg-neutral-900">
@@ -75,15 +81,16 @@ export const Footer = ({ waLink }) => {
           <p className="text-sm text-gray-500">
             © Copyright {yearNow} Nuy Laundry. Seluruh hak cipta dilindungi.
           </p>
-          <div className="flex items-center mt-4 space-x-4 sm:mt-0">
-            <a
-              href={waLink}
-              target="_blank"
-              className="text-gray-500 transition-colors duration-300 hover:text-teal-accent-400"
-            >
+          <a
+            href={waLink}
+            target="_blank"
+            className="text-gray-500 transition-colors duration-300 hover:text-teal-accent-400"
+          >
+            <div className="flex items-center mt-4 space-x-1.5 sm:mt-0">
               <FontAwesomeIcon icon={faWhatsapp} className="text-xl" />
-            </a>
-          </div>
+              <span>Whatsapp</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
